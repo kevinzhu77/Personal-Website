@@ -1,0 +1,180 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	color: white;
+	font-size: 50px;
+	font-family: cursive;
+}
+
+h2 {
+	text-align: center;
+	color: lightcoral;
+	font-size: 40px;
+	font-family: cursive;
+	padding: 5px 20px;
+}
+
+h3 {
+	color: skyblue;
+	font-family: cursive;
+	font-size: 25px;
+	padding: 5px 30px;	
+}
+
+
+h4 {
+	color: white;
+	text-align: center;
+	font-family: cursive;
+	font-size: 20px;	
+}
+
+h5 {
+	color: skyblue;
+	font-family: cursive;
+	font-size: 25px;
+	padding: 5px 10px;	
+}
+
+li {
+	color: white;
+	font-family: cursive;
+	font-size: 17px;
+	padding: 5px 5px;
+}
+
+p {
+	color: springgreen;
+	font-family: cursive;
+	font-size: 17px;
+	padding: 0px 30px;
+}
+
+img {
+	padding: 0px 20px;
+}
+
+a {
+	text-align: center;
+	color: springgreen;
+	font-size: 30px;
+	font-family: cursive;
+	padding-left: 60%;
+}
+
+.column {
+	float: left;
+	width: 50%;
+}
+
+.row:after{
+	display: table;
+	clear: both;
+}
+
+footer {
+	display: block;
+}
+
+button {
+	background-color: lightgray;
+	padding: 20px 25px;
+	text-align: center;
+	color: blue;
+	font-size: 30px;
+	font-family: cursive;
+	margin: 10px 10px 10px 10px;
+}
+
+.fa {
+	padding: 70px;
+	font-size: 100%;
+	text-align: center;
+	margin: 15px 15px 15px 15px;
+}
+
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+}
+
+
+.fa-github {
+	background-color: darkblue;
+	color: white;
+}
+
+.fa-envelope {
+	background-color: purple;
+	color: white;
+}
+
+div {
+	resize: both;
+	overflow: auto;
+}
+
+.alert {
+	margin: 0px 0px 5px 5px;
+	font-size: 15px;
+	font-family: cursive;
+}
+
+.alert-success {
+	background-color: thistle;
+	color: purple;
+}
+
+.btn {
+	padding: 20px 25px;
+	text-align: center;
+	font-size: 20px;
+	margin: 10px 10px 10px 10px;
+	background-color: #007bb5;
+}
+
+.sideBar {
+	height: 100%;
+	position: fixed;
+	width: 0;
+	z-index: 1;
+	overflow-x: hidden;
+	transition: 0.3s;
+	background-color: rgb(0, 149, 255);
+	padding-top: 80px; 
+}
+
+.sideBar a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: cursive;
+	transition: 0.3s;
+	float: left;
+	padding: 8px 8px 8px 30px;
+}
+
+.sideBar .closeButton {
+	position: absolute;
+	font-size: 40px;
+	top: 0;
+	left: 0;
+}
+
+.openButton {
+	cursor: pointer;
+	border: none;
+	font-family: cursive;
+	color: white;
+	background-color: black;
+	font-size: 30px;
+	padding: 10px 10px;
+}
+
+#main {
+	transition: margin-left 0.5s;
+	padding: 20px;
+}

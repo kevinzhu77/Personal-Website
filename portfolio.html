@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1">
+	<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src= "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<title> Kevin's Website </title>
+	<link rel = "icon" type = "image/x-icon" href = "Icon.png">
+	<link rel = "stylesheet" href="style.css">
+	<script src = "script.js" ></script>
+	<link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div id  = sideBar class = sideBar> 
+		<a href = "javascript:void(0)" class = "closeButton" onclick = "closeSideBar()">&times</a>
+		<a href = "index.html"> About Me </a>
+		<a href = "portfolio.html"> My Portfolio </a> 
+	</div>
+	<div id = "main">
+		<button class = "openButton" onclick = "openSideBar()"> &#9776; Menu </button>
+		<center>
+			<h1> <b> KEVIN ZHU </b> </h1>
+			<h3> A Portfolio of My Software Development Experience </h3>
+			<br>
+			<button onclick = "scrollToSkills()" class = "relevantSkillsButton" title = "Scroll to my skills"> <b> Skills </b> </button>
+			<button onclick = "scrollToExperiences()" class = "experiencesButton" title = "Scroll to my experiences"> <b> Experience </b> </button>
+			<button onclick = "scrollToProjects()" class = "projectsButton" title = "Scroll to my projects"> <b> Projects </b> </button>
+		</center>
+		<br> <br> <br>
+		<h2 id = "skills"> <b> TECHNICAL SKILLS </b> </h2>
+		<br> <br> <br>
+		<div class = "row"> 
+			<div class = "column">
+				<center>
+					<img src = "ProgrammingLanguages.jpg" class = "img-rounded" alt = "Automation" width = "400" height = "150">
+				</center>
+			</div>
+			<div class = "column">
+				<h3> Programming Languages </h3>
+				<p> Java, C/C++, Python, Groovy, Turing, Racket, R, Bash, HTML/CSS/Bootstrap, JavaScript </p>
+			</div>
+		</div>
+		<br> <br> <br>
+		<div class = "row"> 
+			<div class = "column">
+				<center>
+					<img src = "ToolsAndTechnologies.jpg" class = "img-rounded" alt = "Automation" width = "400" height = "150">
+				</center>
+			</div>
+			<div class = "column">
+				<h3> Tools and Technologies </h3>
+				<p> Git, Selenium, Katalon Studio, Jira, Jenkins, Microsoft Office Applications, Google Workspace </p>
+			</div>
+		</div>
+		<br> <br> <br>
+		<h2 id = "relevantExperience"> <b> RELEVANT EXPERIENCE </b> </h2>
+		<br> <br> <br>
+		<div class = "row">
+			<div class = "column">
+				<center>
+					<img src = "Automation.jpg" class = "img-rounded" alt = "Automation" width = "400" height = "150">
+				</center>
+			</div>
+			<div class = "column">
+				<h5> Automation Developer at Litera </h5>
+				<p> May 2022 - August 2022 </p>
+				<div class = "alert alert-success">
+					<strong> Programming Languages: </strong> Groovy
+				</div>
+				<div class = "alert alert-info">
+					<strong> Tools and Technologies: </strong> Git Bash, Katalon Studio, Jira, Jenkins
+				</div>
+			</div>
+		</div>
+		<br> <br> <br>
+		<div class = "row">
+			<div class = "column">
+				<center>
+					<img src = "ScoutingAndStrategy.jpg" class = "img-rounded" alt = "Robotics" width = "400" height = "150">
+				</center>
+			</div>
+			<div class = "column">
+				<h5> Scouting and Strategy Leader at FRC Team 4914 </h5>
+				<p> July 2019 - June 2021 </p>
+				<div class = "alert alert-info">
+					<strong> Tools and Technologies: </strong> Google Workspace
+				</div>
+				<button type = "button" class = "btn btn-info" data-toggle = "collapse" data-target = "#roboticsWebsiteDescription"> My Role </button>
+				<a href = "https://sites.google.com/view/frcteam4914/home" class = "btn btn-info"> Website </a>
+				<div id = "roboticsWebsiteDescription" class = "collapse">
+					<ul>
+						<li> Collaborated with other subteam leaders to build our FRC robotics team's website </li>
+						<li> Primarily developed the Strategy and Competition subteam pages </li>
+						<br> <br>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<br> <br> <br>
+		<h2 id = "portfolio"> <b> PROJECTS </b> </h2>
+		<br> <br> <br>
+		<div class = "row">
+			<div class = "column">
+				<img src = "PersonalWebsite.png" class = "img-rounded" alt = "HTML" width = "800" height = "400">
+			</div>
+			<div class = "column">
+				<h5> Personal Website </h5>
+				<div class = "alert alert-success">
+					<strong> Programming Languages: </strong> HTML, CSS, Bootstrap, JavaScript
+				</div>
+				<button type = "button" class = "btn btn-info" data-toggle = "collapse" data-target = "#personalWebsiteDescription"> Learn More </button>
+				<a href = "https://github.com/kevinzhu77/Personal-Website" class = "btn btn-info"> GitHub </a>
+				<a href = "https://kevinzhu77.github.io/Personal-Website/" class = "btn btn-info"> Website </a>
+				<br>
+				<div id = "personalWebsiteDescription" class = "collapse">
+					<ul>
+						<li> Used HTML, CSS and JavaScript to build a personal website </li>
+						<li> Showcased my skills, relevant work experience, and computer science projects </li>
+						<li> Refactored this webpage using the Bootstrap Framework </li>
+						<br> <br>
+					</ul>
+				</div>
+				<br> <br> <br> <br> <br> <br>
+			</div>
+		</div>
+		<br> <br> <br>
+		<div class = "row">
+			<div class = "column">
+				<img src="ComputerLabSchedule.jpg" class="img-rounded" alt="Computer Lab Schedule" width = "800" height = "450">
+			</div>
+			<div class = "column">
+				<h5> Computer Lab Schedule </h5>
+				<div class = "alert alert-success">
+					<strong> Programming Languages: </strong> Java
+				</div>
+				<div class = "alert alert-info">
+					<strong> Tools and Technologies: </strong> Java Swing
+				</div>
+				<button type = "button" class = "btn btn-info" data-toggle = "collapse" data-target = "#computerLabScheduleDescription"> Learn More </button>
+				<a href = "https://github.com/kevinzhu77/Computer-Lab-Schedule" class = "btn btn-info"> GitHub </a>
+				<div id = "computerLabScheduleDescription" class = "collapse">
+					<ul>
+						<li> Created a computer lab schedule containing a registration and login page with the Java Swing API </li>
+						<li> Constructed UML Diagrams to plan the structure of the classes </li>
+						<li> Implemented this application using Object Oriented Programming and other algorithms </li>
+						<li> Saved user credentials and timetable data in text files even after the software is closed </li>
+						<li> <b> Features: </b> adding new classes, clearing the eschedule, searching for teachers and courses </li>
+						<br> <br>
+					</ul>
+				</div>
+				<br> <br> <br> <br> <br> <br>
+			</div>
+		</div>
+		<br> <br> <br>
+		<div class = "row">
+			<div class = "column">
+				<img src = "2048.jpg" class = "img-rounded" alt= "2048" width = "800" height = "475">
+			</div>
+			<div class = "column">
+				<h5> 2048 Board Game </h5>
+				<div class = "alert alert-success">
+					<strong> Programming Languages: </strong> Java, HTML, CSS
+				</div>
+				<div class = "alert alert-info">
+					<strong> Tools and Technologies: </strong> Java Swing
+				</div>
+				<button type = "button" class = "btn btn-info" data-toggle = "collapse" data-target = "#2048Description"> Learn More </button>
+				<a href = "https://github.com/kevinzhu77/2048" class = "btn btn-info"> GitHub </a>
+				<a href = "https://kevinzhu77.github.io/2048/" class = "btn btn-info"> Website </a>
+				<br>
+				<div id = "2048Description" class = "collapse">
+					<ul>
+						<li> Collaborated with a friend to code 2048 and a home page for this game </li>
+						<li> Kept track of the user's score at the top left corner of the application </li>
+						<li> Implemented this game using the Java Swing API and Object Oriented Programming </li>
+						<li> Constructed a website to promote our game using HTML and CSS </li>
+						<li> The game can also be downloaded from the website </li>
+						<br> <br>
+					</ul>
+				</div>
+				<br> <br> <br> <br> <br> <br>
+			</div>
+		</div>
+		<br> <br> <br>
+		<div class = "row">
+			<div class = "column">
+				<img src = "FlashbackModelX.jpg" class = "img-rounded" alt= "FlashbackModelX" width = "800" height = "475">
+			</div>
+			<div class = "column">
+				<h5> Flashback Model X </h5>
+				<div class = "alert alert-success">
+					<strong> Programming Languages: </strong> HTML, CSS, JavaScript
+				</div>
+				<button type = "button" class = "btn btn-info" data-toggle = "collapse" data-target = "#flashbackModelXDescription"> Learn More </button>
+				<a href = "https://github.com/kevinzhu77/FlashbackModelX" class = "btn btn-info"> GitHub </a>
+				<a href = "https://kevinzhu77.github.io/FlashbackModelX/" class = "btn btn-info"> Website </a>
+				<br>
+				<div id = "flashbackModelXDescription" class = "collapse">
+					<ul>
+						<li> Used HTML and CSS to build a website for my team's innovative flashlight </li>
+						<li> Showcased the final product, the product's design and some testing results </li>
+						<li> Outlined the mathematics, physics and chemistry principles of the product </li>
+						<li> Modelled the flashlight's thermoelectric effect with JavaScript </li>
+						<br> <br>
+					</ul>
+				</div>
+				<br> <br> <br> <br> <br> <br> 
+			</div>
+		</div>
+		<br> <br> <br>
+		<div class = "row">
+			<div class = "column">
+				<img src = "HTML.png" class = "img-rounded" alt = "HTML" width = "800" height = "475">
+			</div>
+			<div class = "column">
+				<h5> HyperText MarkUp Language </h5>
+				<div class = "alert alert-success">
+					<strong> Programming Languages: </strong> HTML, CSS
+				</div>
+				<button type = "button" class = "btn btn-info" data-toggle = "collapse" data-target = "#htmlDescription"> Learn More </button>
+				<a href = "https://github.com/kevinzhu77/HTML-Website" class = "btn btn-info"> GitHub </a>
+				<a href = "https://kevinzhu77.github.io/HTML-Website/" class = "btn btn-info"> Website </a>
+				<br>
+				<div id = "htmlDescription" class = "collapse">
+					<ul>
+						<li> Used HTML and CSS to construct an informative website about the HyperText Markup Language </li>
+						<li> Described the history of HTML and listed some of the most famous HTML programmers </li>
+						<li> Presented the basic template of an HTML webpage </li>
+						<br> <br>
+					</ul>
+				</div>
+				<br> <br> <br> <br> <br> <br>
+			</div>
+		</div>
+		<br> <br> <br>
+		<footer> 
+			<h4> Kevin Zhu | Sited Constructed With HTML/CSS/JS </h4>
+		</footer>
+	</div>
+</body>
+</html>
